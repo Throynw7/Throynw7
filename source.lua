@@ -152,7 +152,7 @@ end
 -- Main Functions
 function espLibrary.getTeam(player)
     local team = game:GetService("Players")[player.Name].PlayerData.TeamValue.Value;
-    return team, Color3.new(0,0,1);
+    return team, Color3.new(0, 0, 1);
 end
 
 function espLibrary.getCharacter(player)
